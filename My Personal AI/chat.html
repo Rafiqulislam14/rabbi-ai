@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>My Personal AI</title>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>AI Chat</h2>
+      <p id="userName"></p>
+      <button onclick="newChat()">+ New Chat</button
+      ><button onclick="logout()">Logout</button>
+      <button onclick="toggleTheme()">🌙 Dark Mode</button>
+    </div>
+    <div class="main">
+      <div id="chatBox" class="chat-box"></div>
+      <div class="input-area">
+        <input id="msg" placeholder="Ask anything..." /><button
+          onclick="sendMessage()"
+        >
+          Send
+          
+        </button>
+      </div>
+    </div>
+    <script src="chat.js"></script>
+    
+  </body>
+</html>
