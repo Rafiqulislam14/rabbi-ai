@@ -159,6 +159,9 @@ return "I LOVE YOU ";
 if(msg.includes("fazle"))
 return "I LOVE YOU TOOOOOOOOOO ";
 
+if(msg.includes("hadi"))
+return "Rabbi sala ";
+
 
 return "দুঃখিত, এই প্রশ্নের উত্তর এখনো আমার ডাটাবেজে নেই।";
 
