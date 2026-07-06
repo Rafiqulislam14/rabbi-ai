@@ -160,7 +160,7 @@ if(msg.includes("fazle"))
 return "I LOVE YOU TOOOOOOOOOO ";
 
 if(msg.includes("hadi"))
-return "Rabbi sala ";
+return "Rabbi sala hadi  ";
 
 
 return "দুঃখিত, এই প্রশ্নের উত্তর এখনো আমার ডাটাবেজে নেই।";
